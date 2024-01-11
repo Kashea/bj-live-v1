@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400;600;700;800&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-gabarito: Gabarito;
+
+  /* font sizes */
+  --font-size-2xs: 0.69rem;
+  --font-size-xl: 1.25rem;
+  --font-size-xs: 0.75rem;
+  --font-size-base: 1rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-13xl: 2rem;
+  --font-size-lg: 1.13rem;
+  --font-size-45xl: 4rem;
+  --font-size-sm: 0.88rem;
+  --font-size-51xl: 4.38rem;
+  --font-size-3xl: 1.38rem;
+  --font-size-4xl: 1.44rem;
+  --font-size-29xl: 3rem;
+  --font-size-17xl: 2.25rem;
+  --font-size-3xs: 0.63rem;
+  --font-size-21xl: 2.5rem;
+
+  /* Colors */
+  --color-dimgray-100: #777171;
+  --color-dimgray-200: #6a6a6a;
+  --color-dimgray-300: #666;
+  --color-dimgray-400: #666363;
+  --color-dimgray-500: rgba(78, 78, 78, 0.34);
+  --color-crimson-100: rgba(238, 57, 69, 0.09);
+  --color-crimson-200: rgba(238, 57, 69, 0.13);
+  --color-silver: #b9b9b9;
+  --color-white: #fff;
+  --color-darkgray-100: #b1b1b1;
+  --color-darkgray-200: #9f9f9f;
+  --color-gray-100: #949292;
+  --color-gray-200: #2b2b2b;
+  --color-gray-300: #0c0e13;
+  --color-gray-400: #130000;
+  --color-gray-500: rgba(0, 0, 0, 0.29);
+  --color-gray-600: rgba(0, 0, 0, 0.39);
+  --color-gray-700: rgba(255, 255, 255, 0.79);
+  --color-gray-800: rgba(255, 255, 255, 0.63);
+  --color-gainsboro-100: #e4e4e4;
+  --color-gainsboro-200: #e3e3e3;
+  --color-lightgray-100: #d5d5d5;
+  --color-lightgray-200: #d1d0d0;
+  --color-whitesmoke-100: #f3f3f3;
+  --color-whitesmoke-200: #eaeaea;
+  --color-darkslategray: #2e2e2e;
+
+  /* Gaps */
+  --gap-4xl: 1.44rem;
+  --gap-52xl: 4.44rem;
+  --gap-91xl: 6.88rem;
+  --gap-22xl: 2.56rem;
+  --gap-xl: 1.25rem;
+  --gap-71xl: 5.63rem;
+  --gap-3xs: 0.63rem;
+  --gap-10xl: 1.81rem;
+  --gap-2xs: 0.69rem;
+  --gap-12xl: 1.94rem;
+  --gap-2xl: 1.31rem;
+  --gap-6xl: 1.56rem;
+  --gap-43xl: 3.88rem;
+  --gap-36xl: 3.44rem;
+  --gap-32xl: 3.19rem;
+  --gap-55xl: 4.63rem;
+  --gap-mini: 0.94rem;
+  --gap-46xl: 4.06rem;
+  --gap-xs: 0.75rem;
+
+  /* Paddings */
+  --padding-mini: 0.94rem;
+  --padding-13xl: 2rem;
+  --padding-32xl: 3.19rem;
+  --padding-353xl: 23.25rem;
+  --padding-311xl-9: 20.68rem;
+  --padding-408xl: 26.69rem;
+  --padding-27xl: 2.88rem;
+  --padding-228xl: 15.44rem;
+
+  /* Border radiuses */
+  --br-base: 16px;
+}

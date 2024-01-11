@@ -1,0 +1,105 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.yourUltimateAllInOne {
+  margin: 0;
+  font-weight: 600;
+}
+.blankLine {
+  margin: 0;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-400);
+}
+.lookingForAnUnparalleledOn {
+  margin: 0;
+  font-size: var(--font-size-2xs);
+}
+.yourUltimateAllInOneContainer {
+  position: relative;
+  display: inline-block;
+  width: 80.06rem;
+  flex-shrink: 0;
+}
+.yourUltimateAllInOneOnlinWrapper {
+  background-color: #00020a;
+  width: 129.81rem;
+  height: 23.06rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-13xl) 23.63rem;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: #848484;
+  font-family: var(--font-gabarito);
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  z-index: 6;
+}
+.bjLogoBw {
+  width: 4.5rem;
+  height: 3.13rem;
+  object-fit: cover;
+}
+.bjLogoBw,
+.home,
+.navBarChild {
+  position: relative;
+}
+.navBarChild {
+  background-color: var(--color-dimgray-500);
+  width: 0.13rem;
+  height: 1.25rem;
+}
+.bjlive,
+.navBar,
+.navigation {
+  display: flex;
+  justify-content: flex-start;
+}
+.navBar {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 3.56rem;
+}
+.bjlive,
+.navigation {
+  align-items: center;
+}
+.navigation {
+  margin: 0 !important;
+  position: absolute;
+  top: 1.69rem;
+  right: 25.06rem;
+  flex-direction: row;
+  gap: 38.69rem;
+  z-index: 7;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkgray-100);
+  font-family: var(--font-gabarito);
+}
+.bjlive {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  opacity: 0;
+}
+.bjlive.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}

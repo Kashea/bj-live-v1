@@ -1,0 +1,187 @@
+.notJustChild {
+  position: relative;
+  width: 130.25rem;
+  height: 73.88rem;
+  object-fit: cover;
+  z-index: 0;
+}
+.were {
+  margin: 0;
+}
+.wereNotJustContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.frameChild {
+  position: relative;
+  background-color: var(--color-crimson-100);
+  width: 1rem;
+  height: 29.81rem;
+}
+.wereNotJustAboutBettingParent {
+  width: 19.69rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+  text-align: right;
+  font-size: var(--font-size-51xl);
+  color: var(--color-lightgray-200);
+}
+.bjcharity11Icon {
+  position: absolute;
+  margin: 0 !important;
+  top: 0.75rem;
+  left: 2rem;
+  width: 8.06rem;
+  height: 2.25rem;
+  object-fit: cover;
+  z-index: 0;
+}
+.bjcharity11Wrapper {
+  border-radius: var(--br-base);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  background-image: url(/frame-4@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 0;
+}
+.blankLine {
+  font-size: var(--font-size-sm);
+}
+.togetherWereMakingADiffe {
+  margin: 0;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-100);
+}
+.wereSpreadingLoveContainer {
+  position: absolute;
+  margin: 0 !important;
+  top: 29.44rem;
+  left: 2rem;
+  display: inline-block;
+  width: 14.44rem;
+  height: 14.06rem;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.frameItem {
+  position: relative;
+  border-radius: var(--br-base);
+  width: 18.75rem;
+  height: 45.5rem;
+  object-fit: cover;
+  z-index: 0;
+}
+.latestSportsUpdates1 {
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-gabarito);
+}
+.latestSportsUpdatesContainer {
+  position: absolute;
+  margin: 0 !important;
+  top: 27.63rem;
+  left: 2.13rem;
+  display: inline-block;
+  width: 14.44rem;
+  height: 16.56rem;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.bjcharity12Icon {
+  position: absolute;
+  margin: 0 !important;
+  top: 0.75rem;
+  left: 0.94rem;
+  width: 8.06rem;
+  height: 2.25rem;
+  object-fit: cover;
+  z-index: 2;
+}
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-sm);
+}
+.frameInner {
+  position: relative;
+  border-radius: var(--br-base);
+  width: 18.56rem;
+  height: 45.5rem;
+  object-fit: cover;
+  z-index: 0;
+}
+.bjForumIs {
+  margin: 0;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+}
+.yourPremierOnlineContainer {
+  position: absolute;
+  margin: 0 !important;
+  top: 28rem;
+  left: 1.63rem;
+  display: inline-block;
+  width: 14.44rem;
+  height: 13.56rem;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.bjcharity11Icon1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 1.06rem;
+  left: 0.75rem;
+  width: 8.06rem;
+  height: 2.25rem;
+  object-fit: cover;
+  z-index: 2;
+}
+.frameParent,
+.notJust {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent {
+  margin: 0 !important;
+  position: absolute;
+  top: 15.88rem;
+  left: 22.38rem;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-12xl);
+  z-index: 1;
+}
+.notJust {
+  width: 130.25rem;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+  z-index: 4;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-lightgray-100);
+  font-family: var(--font-gabarito);
+}

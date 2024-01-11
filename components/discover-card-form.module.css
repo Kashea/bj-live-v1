@@ -1,0 +1,130 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.discoverChild {
+  position: relative;
+  width: 130.25rem;
+  height: 65.44rem;
+  object-fit: cover;
+  z-index: 0;
+}
+.discover1 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 19.5rem;
+  height: 5.94rem;
+}
+.no1 {
+  font-weight: 800;
+}
+.worldssNo1 {
+  position: absolute;
+  top: 4.5rem;
+  left: 0;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.79em;
+  color: var(--color-white);
+  display: inline-block;
+  width: 19.5rem;
+  height: 1.44rem;
+}
+.discoverParent,
+.frameChild {
+  position: relative;
+  width: 19.5rem;
+  height: 5.94rem;
+}
+.frameChild {
+  width: 10.94rem;
+  height: 10.06rem;
+  object-fit: cover;
+}
+.bestOnline {
+  margin: 0;
+}
+.bestOnlineBettingContainer {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  letter-spacing: 0.13em;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-gainsboro-200);
+  display: inline-block;
+  width: 16.06rem;
+  height: 4.75rem;
+  flex-shrink: 0;
+  opacity: 0;
+}
+.bestOnlineBettingContainer.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+.groupParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.frameItem {
+  position: relative;
+  border-radius: 50%;
+  width: 2.56rem;
+  height: 2.56rem;
+  object-fit: cover;
+}
+.ellipseParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  opacity: 0.7;
+}
+.discover,
+.discoverInner,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-items: center;
+  gap: var(--gap-10xl);
+}
+.discover,
+.discoverInner {
+  align-items: flex-start;
+}
+.discoverInner {
+  margin: 0 !important;
+  position: absolute;
+  top: 12.81rem;
+  left: 24.88rem;
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-600);
+  padding: var(--padding-27xl) var(--padding-228xl);
+  z-index: 1;
+}
+.discover {
+  width: 130.25rem;
+  height: 63.94rem;
+  position: relative;
+  gap: var(--gap-3xs);
+  z-index: 5;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gainsboro-100);
+  font-family: var(--font-gabarito);
+}

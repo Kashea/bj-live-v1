@@ -1,0 +1,57 @@
+.logoJili1Icon {
+  position: relative;
+  width: 5.76rem;
+  height: 2.19rem;
+  object-fit: cover;
+}
+.image10Icon,
+.imageRemovebgPreview2Icon,
+.imageRemovebgPreview3Icon {
+  position: relative;
+  width: 4.39rem;
+  height: 2.19rem;
+  object-fit: cover;
+}
+.image10Icon,
+.imageRemovebgPreview2Icon {
+  width: 2.39rem;
+}
+.image10Icon {
+  width: 8.08rem;
+  height: 2.31rem;
+}
+.colorFill11,
+.image11Icon,
+.image9Icon {
+  position: relative;
+  width: 5.89rem;
+  height: 1.81rem;
+  object-fit: cover;
+}
+.colorFill11,
+.image11Icon {
+  width: 9.34rem;
+  height: 2.38rem;
+}
+.colorFill11 {
+  width: 7.77rem;
+  height: 2.5rem;
+}
+.sponsors,
+.sponsorsWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sponsors {
+  background-color: var(--color-gray-300);
+  width: 129.81rem;
+  height: 6.5rem;
+  flex-direction: row;
+  padding: var(--padding-13xl) 20.68rem var(--padding-13xl) var(--padding-408xl);
+  box-sizing: border-box;
+  gap: var(--gap-71xl);
+}
+.sponsorsWrapper {
+  flex-direction: column;
+}

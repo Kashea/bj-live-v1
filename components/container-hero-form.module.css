@@ -1,0 +1,260 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.world12 {
+  position: relative;
+  width: 129.94rem;
+  height: 69.13rem;
+  z-index: 0;
+}
+.frameChild {
+  position: relative;
+  width: 17.93rem;
+  height: 14.88rem;
+  object-fit: cover;
+}
+.no1 {
+  font-weight: 800;
+}
+.worldssNo1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.79em;
+  display: inline-block;
+  width: 19.38rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+  font-family: inherit;
+}
+.bestOnline {
+  margin: 0;
+}
+.bestOnlineBettingContainer {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  letter-spacing: 0.13em;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-whitesmoke-200);
+  display: inline-block;
+  width: 19.38rem;
+  height: 6rem;
+  flex-shrink: 0;
+  opacity: 0;
+}
+.bestOnlineBettingContainer.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+.worldssNo1Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.rectangleParent {
+  margin: 0 !important;
+  position: absolute;
+  top: 16.94rem;
+  left: 59.94rem;
+  width: 39.38rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.asia {
+  position: relative;
+  display: inline-block;
+  width: 4.12rem;
+  opacity: 0.3;
+}
+.frameItem {
+  border-radius: 50%;
+  width: 1.44rem;
+  height: 1.44rem;
+  object-fit: cover;
+}
+.cambodia,
+.frameItem {
+  position: relative;
+}
+.ellipseParent {
+  width: 5.06rem;
+  gap: var(--gap-3xs);
+}
+.ellipseGroup,
+.ellipseParent,
+.frameDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ellipseGroup {
+  gap: var(--gap-3xs);
+  text-align: left;
+}
+.frameDiv {
+  width: 5.5rem;
+  gap: var(--gap-xs);
+}
+.frameChild3 {
+  position: relative;
+  width: 1.44rem;
+  height: 1.44rem;
+  object-fit: cover;
+}
+.ellipseParent2,
+.vectorParent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.vectorParent {
+  width: 5.25rem;
+  display: flex;
+  justify-content: flex-start;
+}
+.ellipseParent2 {
+  width: 5.19rem;
+}
+.asiaParent,
+.ellipseParent2,
+.frameGroup,
+.vectorGroup {
+  display: flex;
+  justify-content: flex-start;
+}
+.vectorGroup {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xs);
+}
+.asiaParent,
+.frameGroup {
+  align-items: flex-start;
+}
+.frameGroup {
+  width: 37.31rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-46xl);
+  text-align: center;
+}
+.asiaParent {
+  flex-direction: column;
+  gap: var(--gap-2xs);
+  z-index: 0;
+}
+.northAmerica {
+  position: relative;
+  display: inline-block;
+  width: 4.44rem;
+  opacity: 0.3;
+}
+.frameChild6 {
+  position: relative;
+  border-radius: 50%;
+  width: 1.44rem;
+  height: 1.42rem;
+  object-fit: cover;
+}
+.canada {
+  position: relative;
+  display: inline-block;
+  width: 3.17rem;
+  flex-shrink: 0;
+}
+.ellipseParent3,
+.northAmericaParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.ellipseParent3 {
+  width: 5.69rem;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-mini);
+}
+.northAmericaParent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-6xl);
+}
+.southAmerica {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 4.44rem;
+  opacity: 0.3;
+}
+.brazil {
+  position: relative;
+  display: inline-block;
+  width: 2.28rem;
+  flex-shrink: 0;
+}
+.ellipseParent4 {
+  position: absolute;
+  top: 2.31rem;
+  left: 0;
+  width: 5.69rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.southAmericaParent {
+  position: relative;
+  width: 5.69rem;
+  height: 3.73rem;
+}
+.frameContainer,
+.frameParent,
+.hero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  margin: 0 !important;
+  position: absolute;
+  top: 8.56rem;
+  left: 0;
+  flex-direction: row;
+  gap: var(--gap-36xl);
+  z-index: 1;
+}
+.frameParent,
+.hero {
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.frameParent {
+  margin: 0 !important;
+  position: absolute;
+  top: 32.69rem;
+  left: 66.06rem;
+  height: 13.44rem;
+  z-index: 2;
+  font-size: var(--font-size-3xs);
+}
+.hero {
+  width: 129.81rem;
+  position: relative;
+  z-index: 0;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-gabarito);
+}

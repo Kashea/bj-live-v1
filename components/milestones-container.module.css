@@ -1,0 +1,68 @@
+.milestonesChild {
+  position: relative;
+  width: 129.81rem;
+  height: 73.63rem;
+  object-fit: cover;
+  z-index: 0;
+}
+.milestones1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  width: 22.59rem;
+}
+.frameChild {
+  position: relative;
+  background-color: var(--color-darkslategray);
+  width: 11.45rem;
+  height: 0.19rem;
+}
+.milestonesParent {
+  margin: 0 !important;
+  position: absolute;
+  top: 9.31rem;
+  left: 24.38rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-55xl);
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-darkgray-200);
+  font-family: var(--font-gabarito);
+}
+.frameItem {
+  position: relative;
+  border-radius: 50%;
+  width: 2.56rem;
+  height: 2.56rem;
+  object-fit: cover;
+}
+.ellipseParent,
+.milestones {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ellipseParent {
+  margin: 0 !important;
+  position: absolute;
+  top: 28rem;
+  left: 107.81rem;
+  display: none;
+  gap: var(--gap-xl);
+  opacity: 0.7;
+  z-index: 2;
+}
+.milestones {
+  width: 129.81rem;
+  display: flex;
+  position: relative;
+  gap: var(--gap-3xs);
+  z-index: 1;
+}

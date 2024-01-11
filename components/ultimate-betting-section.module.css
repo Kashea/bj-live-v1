@@ -1,0 +1,100 @@
+.about1Child {
+  position: relative;
+  width: 130.25rem;
+  height: 73.63rem;
+  object-fit: cover;
+  z-index: 0;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0.06rem;
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-500);
+  width: 80.63rem;
+  height: 46.94rem;
+}
+.photoIcon {
+  position: relative;
+  width: 20.63rem;
+  height: 46.75rem;
+  object-fit: cover;
+}
+.yourUltimateAllInOne {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.frameChild {
+  position: relative;
+  background-color: var(--color-gray-200);
+  width: 17.75rem;
+  height: 0.25rem;
+}
+.lookingForAn {
+  margin: 0;
+}
+.lookingForAnContainer {
+  position: relative;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-100);
+  text-align: left;
+  display: inline-block;
+  width: 51.44rem;
+  height: 26.25rem;
+  flex-shrink: 0;
+}
+.yourUltimateAllInOneOnlinParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-32xl);
+}
+.photoParent {
+  position: absolute;
+  top: 0.19rem;
+  right: 5.19rem;
+  width: 75.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-36xl);
+}
+.rectangleParent {
+  position: relative;
+  width: 80.69rem;
+  height: 46.94rem;
+}
+.about1Inner {
+  margin: 0 !important;
+  position: absolute;
+  top: 5.94rem;
+  left: 25.44rem;
+  align-items: flex-start;
+  z-index: 1;
+}
+.about1,
+.about1Inner,
+.about1Wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.about1 {
+  width: 130.25rem;
+  align-items: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-gabarito);
+}
+.about1Wrapper {
+  align-items: center;
+  z-index: 2;
+}

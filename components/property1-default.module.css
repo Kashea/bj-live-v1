@@ -1,0 +1,142 @@
+.abu1Icon,
+.gladiators1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90px;
+  height: 89px;
+  object-fit: cover;
+}
+.abu1Icon {
+  left: 113px;
+  width: 128px;
+  height: 78px;
+}
+.gladiators1Parent {
+  position: relative;
+  width: 241px;
+  height: 89px;
+}
+.principalSponsorOf {
+  position: absolute;
+  top: 0;
+  left: 21px;
+  font-weight: 800;
+  display: inline-block;
+  width: 235px;
+  height: 82px;
+}
+.groupChild {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  background-color: var(--color-crimson-200);
+  width: 7px;
+  height: 62px;
+}
+.principalSponsorOfDeccanGlParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 256px;
+  height: 82px;
+}
+.aFormidableTeam {
+  margin-bottom: 0;
+}
+.aFormidableTeamInTheAbuD {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-mini);
+}
+.excitedToJoin {
+  margin: 0;
+}
+.aFormidableTeamContainer {
+  position: absolute;
+  top: 82px;
+  left: 13px;
+  font-size: var(--font-size-2xs);
+  color: var(--color-dimgray-200);
+  display: inline-block;
+  width: 260px;
+}
+.groupContainer {
+  position: relative;
+  width: 273px;
+  height: 238px;
+}
+.groupParent {
+  position: absolute;
+  top: 115px;
+  left: 89px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-52xl);
+}
+.property1defaultInner {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-base);
+  height: 593px;
+  overflow: hidden;
+  background-image: url(/frame-109@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.frameChild {
+  position: absolute;
+  top: 146.5px;
+  left: calc(50% - 42px);
+  width: 84px;
+  height: 170px;
+  object-fit: cover;
+}
+.property1defaultChild {
+  position: relative;
+  border-radius: var(--br-base);
+  width: 174px;
+  height: 492px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-image: url(/frame-110@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.frameItem {
+  position: absolute;
+  top: 161.5px;
+  left: calc(50% - 54px);
+  width: 109px;
+  height: 170px;
+  object-fit: cover;
+}
+.frameDiv {
+  position: relative;
+  border-radius: var(--br-base);
+  width: 174px;
+  height: 492px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-image: url(/frame-111@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.property1default {
+  width: 1297px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-silver);
+  font-family: var(--font-gabarito);
+}
