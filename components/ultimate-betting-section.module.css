@@ -1,23 +1,23 @@
 .about1Child {
   position: relative;
-  width: 130.25rem;
-  height: 73.63rem;
+  width: 2084px;
+  height: 1178px;
   object-fit: cover;
   z-index: 0;
 }
 .groupChild {
   position: absolute;
   top: 0;
-  left: 0.06rem;
+  left: 1px;
   border-radius: var(--br-base);
-  background-color: var(--color-gray-500);
-  width: 80.63rem;
-  height: 46.94rem;
+  background-color: var(--color-gray-700);
+  width: 1290px;
+  height: 751px;
 }
 .photoIcon {
   position: relative;
-  width: 20.63rem;
-  height: 46.75rem;
+  width: 330px;
+  height: 748px;
   object-fit: cover;
 }
 .yourUltimateAllInOne {
@@ -29,9 +29,9 @@
 }
 .frameChild {
   position: relative;
-  background-color: var(--color-gray-200);
-  width: 17.75rem;
-  height: 0.25rem;
+  background-color: var(--color-gray-300);
+  width: 284px;
+  height: 4px;
 }
 .lookingForAn {
   margin: 0;
@@ -42,8 +42,8 @@
   color: var(--color-dimgray-100);
   text-align: left;
   display: inline-block;
-  width: 51.44rem;
-  height: 26.25rem;
+  width: 823px;
+  height: 420px;
   flex-shrink: 0;
 }
 .yourUltimateAllInOneOnlinParent {
@@ -55,9 +55,9 @@
 }
 .photoParent {
   position: absolute;
-  top: 0.19rem;
-  right: 5.19rem;
-  width: 75.5rem;
+  top: 3px;
+  right: 83px;
+  width: 1208px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -66,14 +66,14 @@
 }
 .rectangleParent {
   position: relative;
-  width: 80.69rem;
-  height: 46.94rem;
+  width: 1291px;
+  height: 751px;
 }
 .about1Inner {
   margin: 0 !important;
   position: absolute;
-  top: 5.94rem;
-  left: 25.44rem;
+  top: 95px;
+  left: 407px;
   align-items: flex-start;
   z-index: 1;
 }
@@ -85,7 +85,7 @@
   justify-content: flex-start;
 }
 .about1 {
-  width: 130.25rem;
+  width: 2084px;
   align-items: flex-start;
   position: relative;
   gap: var(--gap-3xs);
@@ -96,5 +96,4 @@
 }
 .about1Wrapper {
   align-items: center;
-  z-index: 2;
 }

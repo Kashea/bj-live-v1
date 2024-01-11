@@ -1,8 +1,7 @@
-import type { NextPage } from "next";
 import { useEffect } from "react";
 import styles from "./discover-card-form.module.css";
 
-const DiscoverCardForm: NextPage = () => {
+const DiscoverCardForm = () => {
   useEffect(() => {
     const scrollAnimElements = document.querySelectorAll(
       "[data-animate-on-scroll]"

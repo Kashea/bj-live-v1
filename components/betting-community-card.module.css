@@ -1,0 +1,70 @@
+.bjcharity11Icon,
+.frameChild {
+  position: relative;
+  object-fit: cover;
+}
+.frameChild {
+  border-radius: var(--br-base);
+  width: 297px;
+  height: 728px;
+  z-index: 0;
+}
+.bjcharity11Icon {
+  width: 129px;
+  height: 36px;
+}
+.yourPremierOnline {
+  position: relative;
+  display: inline-block;
+  width: 231px;
+  height: 58px;
+  flex-shrink: 0;
+}
+.bjForumIs {
+  margin: 0;
+}
+.bjForumIsContainer {
+  position: relative;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+  display: inline-block;
+  width: 231px;
+  height: 147px;
+  flex-shrink: 0;
+}
+.bjcharity11Parent,
+.yourPremierOnlineBettingCoParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.bjcharity11Parent {
+  margin: 0 !important;
+  position: absolute;
+  top: 17px;
+  left: 26px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-373xl);
+  z-index: 1;
+}
+.forum2,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.rectangleParent {
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.forum2 {
+  width: 297px;
+  text-align: left;
+  font-size: var(--font-size-4xl);
+  color: var(--color-lightgray-100);
+  font-family: var(--font-gabarito);
+}

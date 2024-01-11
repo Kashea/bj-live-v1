@@ -1,9 +1,8 @@
-import type { NextPage } from "next";
 import styles from "./ultimate-betting-section.module.css";
 
-const UltimateBettingSection: NextPage = () => {
+const UltimateBettingSection = () => {
   return (
-    <section className={styles.about1Wrapper} id="about01">
+    <div className={styles.about1Wrapper}>
       <section className={styles.about1} id="about01">
         <img
           className={styles.about1Child}
@@ -74,7 +73,7 @@ const UltimateBettingSection: NextPage = () => {
           </div>
         </div>
       </section>
-    </section>
+    </div>
   );
 };
 

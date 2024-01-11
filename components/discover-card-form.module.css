@@ -8,8 +8,8 @@
 }
 .discoverChild {
   position: relative;
-  width: 130.25rem;
-  height: 65.44rem;
+  width: 2084px;
+  height: 1047px;
   object-fit: cover;
   z-index: 0;
 }
@@ -22,32 +22,32 @@
   font-weight: 700;
   font-family: inherit;
   display: inline-block;
-  width: 19.5rem;
-  height: 5.94rem;
+  width: 312px;
+  height: 95px;
 }
 .no1 {
   font-weight: 800;
 }
 .worldssNo1 {
   position: absolute;
-  top: 4.5rem;
+  top: 72px;
   left: 0;
   font-size: var(--font-size-lg);
   letter-spacing: 0.79em;
   color: var(--color-white);
   display: inline-block;
-  width: 19.5rem;
-  height: 1.44rem;
+  width: 312px;
+  height: 23px;
 }
 .discoverParent,
 .frameChild {
   position: relative;
-  width: 19.5rem;
-  height: 5.94rem;
+  width: 312px;
+  height: 95px;
 }
 .frameChild {
-  width: 10.94rem;
-  height: 10.06rem;
+  width: 175px;
+  height: 161px;
   object-fit: cover;
 }
 .bestOnline {
@@ -62,8 +62,8 @@
   font-family: inherit;
   color: var(--color-gainsboro-200);
   display: inline-block;
-  width: 16.06rem;
-  height: 4.75rem;
+  width: 257px;
+  height: 76px;
   flex-shrink: 0;
   opacity: 0;
 }
@@ -80,8 +80,8 @@
 .frameItem {
   position: relative;
   border-radius: 50%;
-  width: 2.56rem;
-  height: 2.56rem;
+  width: 41px;
+  height: 41px;
   object-fit: cover;
 }
 .ellipseParent {
@@ -110,19 +110,18 @@
 .discoverInner {
   margin: 0 !important;
   position: absolute;
-  top: 12.81rem;
-  left: 24.88rem;
+  top: 310px;
+  left: 411.5px;
   border-radius: var(--br-base);
-  background-color: var(--color-gray-600);
+  background-color: var(--color-gray-800);
   padding: var(--padding-27xl) var(--padding-228xl);
   z-index: 1;
 }
 .discover {
-  width: 130.25rem;
-  height: 63.94rem;
+  width: 2084px;
+  height: 1023px;
   position: relative;
   gap: var(--gap-3xs);
-  z-index: 5;
   text-align: left;
   font-size: var(--font-size-45xl);
   color: var(--color-gainsboro-100);
